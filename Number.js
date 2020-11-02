@@ -12,10 +12,10 @@ console.log(name.replace('jahed','jebon'));
 console.log(name.toUpperCase());
 console.log('3' + 3 +4);
 
+var nam ="jahed";
+function newName(nam){
 
-function newName(){
-    var nam = "jahed";
-    nam ="jebon"
+  
     if (nam == "jebon"){
         return  nam+=" khan";
     }
@@ -28,7 +28,7 @@ function newName(){
 
 }
 
-console.log(newName());
+console.log(newName("jebon"));
 //ternary operator
 const age =18;
 const allow =( age >=18) ? 'yes' :'no';
